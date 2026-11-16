@@ -13,7 +13,7 @@ C++17 implementations and demonstrations of stacks, queues, a priority queue, he
 | `Graph/` | Graph representation and demo |
 | `BST/` | Binary search tree and demo |
 
-`main.c++` selects the demonstration. The current entry point runs the BST demo; other demo calls are commented out.
+`main.c++` selects the demonstration.
 
 ## Build status
 
@@ -24,6 +24,5 @@ cmake -S . -B build
 cmake --build build
 ```
 
-The executable is named `DsaCodeRepo`; its location depends on the generator and configuration. Use a C++17 compiler and CMake.
 
 
