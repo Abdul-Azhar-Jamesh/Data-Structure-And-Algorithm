@@ -1,22 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-
-project(DsaCodeRepo)
-
+project(DsaCodeRepo LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-
-set(SOURCES
-    main.c++
-    )
-set(HEADERS
-    Queue.hpp
-    Stack.hpp
-    FixedSizeStack.hpp
-    QueueApp.hpp
-    PriorityQueue.hpp
-    PriorityQueueApp.hpp
-    HeapSortApp.hpp
-    HeapSort.hpp
-    )
-
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+add_executable(DsaCodeRepo main.c++)
