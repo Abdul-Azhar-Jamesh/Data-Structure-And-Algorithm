@@ -26,8 +26,4 @@ cmake --build build
 
 The executable is named `DsaCodeRepo`; its location depends on the generator and configuration. Use a C++17 compiler and CMake.
 
-## Learning goals
 
-Read each implementation alongside its demo. Document the supported operations, ownership/copy behavior, expected complexity and error behavior. Useful checks include empty operations, one-element transitions, repeated insert/remove cycles and duplicate BST values.
-
-Generated build files and binaries are excluded from source control.
